@@ -1,0 +1,63 @@
+\documentclass{beamer}
+\usepackage[style=ieee]{biblatex}
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\usecolortheme{dolphin}
+
+\usepackage{filecontents}
+\begin{filecontents*}{mlir.bib}
+  @misc{lattner2020mlir,
+    title={MLIR: A Compiler Infrastructure for the End of Moore's Law},
+    author={Chris Lattner and Mehdi Amini and Uday Bondhugula and Albert Cohen and Andy Davis and Jacques Pienaar and River Riddle and Tatiana Shpeisman and Nicolas Vasilache and Oleksandr Zinenko},
+    year={2020},
+    eprint={2002.11054},
+    archivePrefix={arXiv},
+    primaryClass={cs.PL}
+  }
+\end{filecontents*}
+\addbibresource{mlir.bib}
+
+
+\title{MLIR - Multi-Level Intermediate Representation}
+\author{Kevin Jude Concessao}
+\institute{IIT Palakkad}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Outline}
+  \tableofcontents
+\end{frame}
+
+\begin{frame}
+  \frametitle{Introduction}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Design Principles}
+\end{frame}
+
+\begin{frame}
+  \frametitle{IR Design}
+\end{frame}
+
+\begin{frame}
+  \frametitle{MLIR Infrastructure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Consequences}
+\end{frame}
+
+\nocite{*}
+
+\begin{frame}
+  \frametitle{References}
+  \printbibliography
+\end{frame}
+
+\end{document}
