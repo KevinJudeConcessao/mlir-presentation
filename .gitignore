@@ -1,0 +1,14 @@
+mlir.aux
+mlir.bbl
+mlir.bcf
+mlir.blg
+mlir.fdb_latexmk
+mlir.fls
+mlir.log
+mlir.nav
+mlir.out
+mlir.run.xml
+mlir.snm
+mlir.synctex.gz
+mlir.toc
+code/*
